@@ -3,3 +3,6 @@ tgcrypto
 py-tgcalls
 youtube_search
 pytube
+youtube-dl
+requests
+TgCrypto
