@@ -283,7 +283,7 @@ async def restart(_, message):
     os.system(f"kill -9 {os.getpid()} && python3 app.py")
             
 
-  @bot.on_message(filters.command(['song']))
+  @bot.on_message(filters.command('song'))
 def song(client, message):
     query = ''
     for i in message.command[1:]:
